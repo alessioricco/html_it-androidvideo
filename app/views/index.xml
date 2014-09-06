@@ -1,5 +1,8 @@
 <Alloy>
 	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
+		<Button id="record" title="Record" top="0" onClick="onRecord"></Button>
+		<Button id="play" title="Play"  onClick="onPlay" visible="false"></Button>
+		<VideoPlayer id="player" ns="Ti.Media" bottom="2" url=""
+		height="300" width="300" backgroundColor="blue" autoplay="false" />
 	</Window>
 </Alloy>
